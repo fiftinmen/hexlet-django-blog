@@ -1,5 +1,5 @@
 dev:
-	poetry run django-admin version
+	poetry run python manage.py runserver
 
 debug:
 	poetry run flask --app page_analyzer:app --debug run
